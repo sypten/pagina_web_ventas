@@ -1,0 +1,15 @@
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  display: flex;
+  padding: 1rem;
+}
+
+/* En pantallas pequeñas, se apilan los elementos */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+}
